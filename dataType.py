@@ -1,3 +1,4 @@
+import random
 x = 3 + 5j
 y = 1 + 2j
 
@@ -19,3 +20,5 @@ x.pop()
 x.sort()
 x.reverse()
 print(x)
+
+print(random.randrange(1,10))
